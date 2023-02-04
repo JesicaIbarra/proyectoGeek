@@ -1,0 +1,123 @@
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #464646;
+}
+
+header {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  padding: 0px 6rem;
+  background-color: #ffffff;
+  align-items: center;
+  font-weight: 700;
+}
+header .contenedorLogo {
+  display: flex;
+  align-items: center;
+}
+header .contenedorLogo .logoImagen {
+  width: 40px;
+  height: 30px;
+}
+header .contenedorLogo .logoFirma strong {
+  color: #2A7AE4;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+header nav .contenedorNavegador {
+  width: 30vw;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav .contenedorNavegador .navegadorInput {
+  height: 90%;
+  border: none;
+  background-color: #F5F5F5;
+  padding: 0px 10px;
+}
+header nav .contenedorNavegador .navegadorBuscar {
+  border: none;
+  background-color: #F5F5F5;
+  padding-right: 10px;
+}
+header nav .contenedorNavegadorLogin {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+}
+header nav .contenedorNavegadorLogin .navegadorLogin {
+  border: 1px solid #2A7AE4;
+  color: #2A7AE4;
+  padding: 20px 50px;
+}
+
+.contenedorBanner {
+  width: 100%;
+  height: 350px;
+  background: url(../img/banner/Hero.png);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding-left: 6rem;
+  padding-bottom: 2rem;
+}
+.contenedorBanner .bannerTitulo, .contenedorBanner .bannerParrafo {
+  color: #ffffff;
+  font-size: 52px;
+  padding-bottom: 1rem;
+}
+.contenedorBanner .bannerParrafo {
+  font-size: 22px;
+}
+.contenedorBanner .bannerBoton {
+  padding: 15px;
+  background-color: #2A7AE4;
+  color: #ffffff;
+}
+
+main {
+  padding: 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+}
+
+.contenedorProductos {
+  padding-bottom: 3rem;
+}
+.contenedorProductos .contenedorTituloProducto {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.contenedorProductos .contenedorTituloProducto .productoTitulo {
+  font-size: 32px;
+}
+.contenedorProductos .contenedorTituloProducto .productoVer {
+  font-size: 16px;
+  color: #2A7AE4;
+  font-weight: 700;
+}
+.contenedorProductos .contenedorTituloProducto .productoVer .fa-arrow-right {
+  font-size: 16px;
+  color: #2A7AE4;
+}
+.contenedorProductos .contenedorCardProducto {
+  display: flex;
+  justify-content: space-between;
+}
