@@ -23,6 +23,10 @@ header .contenedorLogo .logoImagen {
   width: 40px;
   height: 30px;
 }
+header .contenedorLogo .logoFirma {
+  font-size: 28px;
+  font-weight: 700;
+}
 header .contenedorLogo .logoFirma strong {
   color: #2A7AE4;
 }
@@ -61,7 +65,7 @@ header nav .contenedorNavegadorLogin {
 header nav .contenedorNavegadorLogin .navegadorLogin {
   border: 1px solid #2A7AE4;
   color: #2A7AE4;
-  padding: 20px 50px;
+  padding: 20px 60px;
 }
 
 .contenedorBanner {
@@ -97,7 +101,7 @@ main {
 }
 
 .contenedorProductos {
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 .contenedorProductos .contenedorTituloProducto {
   display: flex;
@@ -108,16 +112,111 @@ main {
 .contenedorProductos .contenedorTituloProducto .productoTitulo {
   font-size: 32px;
 }
-.contenedorProductos .contenedorTituloProducto .productoVer {
+.contenedorProductos .contenedorTituloProducto .productoVerTodo {
   font-size: 16px;
   color: #2A7AE4;
   font-weight: 700;
 }
-.contenedorProductos .contenedorTituloProducto .productoVer .fa-arrow-right {
+.contenedorProductos .contenedorTituloProducto .productoVerTodo .fa-arrow-right {
   font-size: 16px;
   color: #2A7AE4;
+  font-weight: 700;
+  margin-left: 10px;
 }
 .contenedorProductos .contenedorCardProducto {
   display: flex;
   justify-content: space-between;
+}
+
+.producto .producto__informacion .producto__nombre {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.producto .producto__informacion .producto__precio {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.producto .producto__informacion .productoVer {
+  font-size: 16px;
+  color: #2A7AE4;
+  font-weight: 700;
+}
+
+.contenedorNosotros {
+  padding: 3rem 6rem;
+  background-color: #EAF2FD;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.contenedorNosotros .contenedorLogo {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+}
+.contenedorNosotros .contenedorLogo .logoImagen {
+  width: 40px;
+  height: 30px;
+}
+.contenedorNosotros .contenedorLogo .logoFirma {
+  font-size: 28px;
+  font-weight: 700;
+}
+.contenedorNosotros .contenedorLogo .logoFirma strong {
+  color: #2A7AE4;
+}
+.contenedorNosotros .contenedorQuienesSomos {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+.contenedorNosotros .contenedorQuienesSomos ul li {
+  list-style: none;
+  padding-bottom: 2rem;
+}
+.contenedorNosotros .contenedorQuienesSomos ul li a {
+  text-decoration: none;
+}
+.contenedorNosotros form {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+.contenedorNosotros form .formTitulo {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+.contenedorNosotros form .formNombre {
+  padding: 10px 0px 40px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.contenedorNosotros form .formArea {
+  padding: 10px 0px 0px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.contenedorNosotros form .formBoton {
+  width: 10rem;
+  padding: 15px;
+  background-color: #2A7AE4;
+  border: none;
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0px;
+}
+footer p {
+  font-size: 22px;
+  font-weight: bold;
 }

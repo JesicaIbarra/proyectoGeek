@@ -1,7 +1,6 @@
 .contenedorProductos{
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     
-
     .contenedorTituloProducto{
         display: flex;
         justify-content: space-between;
@@ -12,14 +11,16 @@
             font-size: 32px;
         }
 
-        .productoVer{
+        .productoVerTodo{
             font-size: 16px;
             color:#2A7AE4;
             font-weight: 700;
 
             .fa-arrow-right{
               font-size: 16px;
-              color:#2A7AE4;  
+              color:#2A7AE4;
+              font-weight: 700;
+              margin-left: 10px;  
             }
         }
     }
